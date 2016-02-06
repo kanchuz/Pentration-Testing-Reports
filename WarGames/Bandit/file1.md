@@ -58,3 +58,19 @@ Steps:
 5. open the hidden file.
 `cat ./.hidden`
 6. copy the password.
+
+##Bandit Level 4 → Level 5  
+level goal: get pw from human readable file
+Steps:
+
+1. access level 4 using ssh.
+ `ssh bandit4@bandit.labs.overthewire.org`
+2. use the copied password.
+3. open move to directory.
+`cd inhere`
+4. find available files in the directory.
+`find`
+5. open file named "file07".
+`cat ./-file07`
+6. copy the password. 
+
